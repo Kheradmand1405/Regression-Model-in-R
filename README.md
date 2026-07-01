@@ -127,6 +127,10 @@ Residual standard error: 4.604 on 530 degrees of freedom
 Multiple R-squared:  0.202,	Adjusted R-squared:  0.1975 
 F-statistic: 44.73 on 3 and 530 DF,  p-value: < 2.2e-16
 ```
+#مدل رگرسیونی چندگانه:
+```math
+Y = -4.76987 +0.94833 Edu + 0.12756 Exp - 0.02241 age
+```
 گراف رگرسیون چندگانه در نرم‌افزار R به صورت زیر ترسیم می‌شود:
 ```r
 ggplot(CPS1985,
